@@ -8,8 +8,8 @@ import TestimonialsSection from "../components/landing/TestimonialsSection";
 import NewsletterSection from "../components/landing/NewsletterSection";
 import Footer from "../components/landing/Footer";
 
-const HERO_IMAGE = "https://media.base44.com/images/public/69c037f2b5807be090403942/4a8caf658_generated_93c00a97.png";
-const ABOUT_IMAGE = "https://media.base44.com/images/public/69c037f2b5807be090403942/1e096e471_generated_8a9becf1.png";
+const HERO_IMAGE = "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/hero.png";
+const ABOUT_IMAGE = "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/about.png";
 
 const PRODUCTS = [
   {
@@ -17,21 +17,21 @@ const PRODUCTS = [
     category: "Herbal",
     description: "Notas de sálvia branca e eucalipto com toque amadeirado.",
     price: "89,90",
-    image: "https://media.base44.com/images/public/69c037f2b5807be090403942/7e3c0b885_generated_8eac234c.png",
+    image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/salvia.png",
   },
   {
     name: "Rosa Antiga",
     category: "Floral",
     description: "Pétalas de rosa, peônia e um leve toque de baunilha.",
     price: "94,90",
-    image: "https://media.base44.com/images/public/69c037f2b5807be090403942/2ad2865fc_generated_31cd401e.png",
+    image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/rosa-antiga.png",
   },
   {
     name: "Âmbar & Lavanda",
     category: "Relaxante",
     description: "Lavanda francesa combinada com âmbar quente e aconchegante.",
     price: "99,90",
-    image: "https://media.base44.com/images/public/69c037f2b5807be090403942/3547a3a75_generated_db772dd5.png",
+    image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/ambar-lavanda.png",
   },
 ];
 
