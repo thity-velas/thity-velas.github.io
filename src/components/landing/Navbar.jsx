@@ -6,8 +6,8 @@ const navLinks = [
   { label: "Início", href: "#hero" },
   { label: "Produtos", href: "#produtos" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Depoimentos", href: "#depoimentos" },
-  { label: "Contato", href: "#contato" },
+  // { label: "Depoimentos", href: "#depoimentos" },
+  // { label: "Contato", href: "#contato" },
 ];
 
 export default function Navbar() {
@@ -19,7 +19,7 @@ export default function Navbar() {
         <a href="#hero" className="flex items-center gap-2">
           <Flame className="w-6 h-6 text-secondary" />
           <span className="font-heading text-2xl font-semibold tracking-wide text-foreground">
-            Thity Velas
+            Thity Velas Artesanais
           </span>
         </a>
 
@@ -34,12 +34,12 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a
+          {/* <a
             href="#produtos"
             className="font-body text-sm tracking-wide bg-primary text-primary-foreground px-5 py-2.5 rounded-full hover:opacity-90 transition-opacity"
           >
             Comprar Agora
-          </a>
+          </a> */}
         </div>
 
         {/* Mobile toggle */}
@@ -68,13 +68,13 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <a
+              {/* <a
                 href="#produtos"
                 onClick={() => setOpen(false)}
                 className="font-body text-sm tracking-wide bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-center hover:opacity-90 transition-opacity"
               >
                 Comprar Agora
-              </a>
+              </a> */}
             </div>
           </motion.div>
         )}

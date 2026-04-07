@@ -41,7 +41,7 @@ export default function ProductsSection({ products }) {
             href="#"
             className="font-body text-sm tracking-wide border border-foreground/20 text-foreground px-8 py-3.5 rounded-full hover:bg-foreground/5 transition-colors inline-block"
           >
-            Ver Todas as Velas
+            Ver Mais
           </a>
         </motion.div>
       </div>
