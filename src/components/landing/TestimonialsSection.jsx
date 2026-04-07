@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: "Ana Carolina",
     role: "Cliente desde 2022",
-    text: "As velas da Lumière transformaram a atmosfera da minha casa. A fragrância de lavanda é simplesmente incrível e dura por semanas!",
+    text: "As velas da Thity transformaram a atmosfera da minha casa. A fragrância de lavanda é simplesmente incrível e dura por semanas!",
     rating: 5,
   },
   {

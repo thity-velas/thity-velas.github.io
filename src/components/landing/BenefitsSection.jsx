@@ -44,7 +44,7 @@ export default function BenefitsSection() {
             Diferenciais
           </p>
           <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground">
-            Por que escolher a <span className="italic">Lumière</span>?
+            Por que escolher a <span className="italic">Thity Velas</span>?
           </h2>
         </motion.div>
 

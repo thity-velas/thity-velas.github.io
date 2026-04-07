@@ -59,7 +59,7 @@ export default function AboutSection({ aboutImage }) {
               Arte em cada <span className="italic">chama</span>
             </h2>
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-10">
-              Na Lumière, acreditamos que uma vela é muito mais do que uma fonte de luz. 
+              Na Thity Velas, acreditamos que uma vela é muito mais do que uma fonte de luz. 
               É um convite ao relaxamento, uma experiência sensorial que transforma espaços 
               e momentos. Desde 2018, criamos velas artesanais com ingredientes naturais 
               selecionados, combinando tradição e inovação em cada peça.

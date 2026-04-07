@@ -19,7 +19,7 @@ export default function Navbar() {
         <a href="#hero" className="flex items-center gap-2">
           <Flame className="w-6 h-6 text-secondary" />
           <span className="font-heading text-2xl font-semibold tracking-wide text-foreground">
-            Lumière
+            Thity Velas
           </span>
         </a>
 

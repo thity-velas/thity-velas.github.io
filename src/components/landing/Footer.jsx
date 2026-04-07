@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Flame className="w-5 h-5 text-secondary" />
-              <span className="font-heading text-xl font-semibold text-foreground">Lumière</span>
+              <span className="font-heading text-xl font-semibold text-foreground">Thity Velas</span>
             </div>
             <p className="font-body text-sm text-muted-foreground leading-relaxed">
               Velas artesanais aromáticas feitas com amor e ingredientes naturais.
@@ -59,7 +59,7 @@ export default function Footer() {
 
         <div className="mt-14 pt-8 border-t border-border/40 text-center">
           <p className="font-body text-xs text-muted-foreground">
-            © 2026 Lumière Velas Artesanais. Todos os direitos reservados.
+            © 2026 Thity Velas Artesanais. Todos os direitos reservados.
           </p>
         </div>
       </div>
