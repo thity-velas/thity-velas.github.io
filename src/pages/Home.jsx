@@ -4,8 +4,8 @@ import HeroSection from "../components/landing/HeroSection";
 import ProductsSection from "../components/landing/ProductsSection";
 import AboutSection from "../components/landing/AboutSection";
 import BenefitsSection from "../components/landing/BenefitsSection";
-import TestimonialsSection from "../components/landing/TestimonialsSection";
-import NewsletterSection from "../components/landing/NewsletterSection";
+// import TestimonialsSection from "../components/landing/TestimonialsSection";
+// import NewsletterSection from "../components/landing/NewsletterSection";
 import Footer from "../components/landing/Footer";
 
 const HERO_IMAGE = "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/hero.png";
@@ -46,8 +46,8 @@ export default function Home() {
       <ProductsSection products={PRODUCTS} />
       <AboutSection aboutImage={ABOUT_IMAGE} />
       <BenefitsSection />
-      <TestimonialsSection />
-      <NewsletterSection />
+      {/* <TestimonialsSection /> */}
+      {/* <NewsletterSection /> */}
       <Footer />
     </div>
   );

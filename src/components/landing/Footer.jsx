@@ -21,7 +21,7 @@ export default function Footer() {
           <div>
             <h4 className="font-heading text-base font-medium text-foreground mb-4">Navegação</h4>
             <div className="flex flex-col gap-2.5">
-              {["Início", "Produtos", "Sobre Nós", "Depoimentos"].map((link) => (
+              {["Início", "Produtos", "Sobre Nós"].map((link) => (
                 <a key={link} href="#" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
                   {link}
                 </a>
@@ -44,7 +44,15 @@ export default function Footer() {
           <div>
             <h4 className="font-heading text-base font-medium text-foreground mb-4">Redes Sociais</h4>
             <div className="flex gap-3">
-              {[Instagram, Facebook, Mail].map((Icon, i) => (
+              <a
+                href="https://www.instagram.com/thityvelas"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-border/60 flex items-center justify-center hover:bg-primary/10 hover:border-primary/30 transition-all"
+              >
+                <Instagram className="w-4 h-4 text-muted-foreground" />
+              </a>
+              {[Facebook, Mail].map((Icon, i) => (
                 <a
                   key={i}
                   href="#"

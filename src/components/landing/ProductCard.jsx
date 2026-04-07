@@ -1,6 +1,19 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+/**
+ * @typedef {Object} Product
+ * @property {string} image
+ * @property {string} name
+ * @property {string} category
+ * @property {string} long_description
+ * @property {string} description
+ * @property {string|number} price
+ */
+
+/**
+ * @param {{ product: Product, index: number }} props
+ */
 export default function ProductCard({ product, index }) {
   const [flipped, setFlipped] = useState(false);
 
