@@ -18,6 +18,7 @@ const PRODUCTS = [
     description: "Notas de sálvia branca e eucalipto com toque amadeirado.",
     price: "89,90",
     image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/salvia.png",
+    long_description: "A Flor de Sálvia é uma vela que combina a frescura da sálvia branca com o aroma revigorante do eucalipto, criando uma atmosfera limpa e energizante. Perfeita para momentos de meditação ou para renovar o ambiente da sua casa, esta vela traz um toque amadeirado que equilibra as notas herbais, proporcionando uma experiência olfativa única e relaxante.",
   },
   {
     name: "Rosa Antiga",
@@ -25,6 +26,7 @@ const PRODUCTS = [
     description: "Pétalas de rosa, peônia e um leve toque de baunilha.",
     price: "94,90",
     image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/rosa-antiga.png",
+    long_description: "A Rosa Antiga é uma vela que captura a essência clássica e romântica das rosas, combinando notas de pétalas de rosa fresca com a suavidade da peônia e um toque sutil de baunilha. Esta fragrância floral é perfeita para criar um ambiente acolhedor e elegante, ideal para jantares especiais ou para adicionar um toque de sofisticação ao seu espaço.",
   },
   {
     name: "Âmbar & Lavanda",
@@ -32,6 +34,7 @@ const PRODUCTS = [
     description: "Lavanda francesa combinada com âmbar quente e aconchegante.",
     price: "99,90",
     image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/ambar-lavanda.png",
+    long_description: "A vela Âmbar & Lavanda é a combinação perfeita para criar um ambiente relaxante e acolhedor. A lavanda francesa traz uma fragrância suave e calmante, enquanto o âmbar quente adiciona uma profundidade aconchegante à mistura. Ideal para momentos de descanso ou para transformar seu espaço em um refúgio de tranquilidade, esta vela é a escolha certa para quem busca equilíbrio e serenidade.",
   },
 ];
 
