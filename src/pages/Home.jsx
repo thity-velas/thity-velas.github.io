@@ -14,6 +14,7 @@ const ABOUT_IMAGE = "https://raw.githubusercontent.com/thity-velas/thity-velas.g
 const PRODUCTS = [
   {
     name: "Flor de Sálvia",
+    highlight: true,
     category: "Herbal",
     description: "Notas de sálvia branca e eucalipto com toque amadeirado.",
     price: "89,90",
@@ -22,6 +23,7 @@ const PRODUCTS = [
   },
   {
     name: "Rosa Antiga",
+    highlight: true,
     category: "Floral",
     description: "Pétalas de rosa, peônia e um leve toque de baunilha.",
     price: "94,90",
@@ -30,11 +32,30 @@ const PRODUCTS = [
   },
   {
     name: "Âmbar & Lavanda",
+    highlight: true,
     category: "Relaxante",
     description: "Lavanda francesa combinada com âmbar quente e aconchegante.",
     price: "99,90",
     image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/ambar-lavanda.png",
     long_description: "A vela Âmbar & Lavanda é a combinação perfeita para criar um ambiente relaxante e acolhedor. A lavanda francesa traz uma fragrância suave e calmante, enquanto o âmbar quente adiciona uma profundidade aconchegante à mistura. Ideal para momentos de descanso ou para transformar seu espaço em um refúgio de tranquilidade, esta vela é a escolha certa para quem busca equilíbrio e serenidade.",
+  },
+  {
+    name: "Produto 4",
+    highlight: false,
+    category: "Relaxante",
+    description: "Loren ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "99,90",
+    image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/ambar-lavanda.png",
+    long_description: "Loren ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    name: "Produto 5",
+    highlight: false,
+    category: "Relaxante",
+    description: "Loren ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "99,90",
+    image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/rosa-antiga.png",
+    long_description: "Loren ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
 ];
 
