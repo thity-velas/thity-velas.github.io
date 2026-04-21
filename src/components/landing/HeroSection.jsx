@@ -43,7 +43,7 @@ export default function HeroSection({ heroImage }) {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-10 max-w-lg"
           >
-            Cada vela é cuidadosamente feita à mão com cera de soja natural e óleos essenciais puros, 
+            Cada vela é cuidadosamente feita de forma artesanal com cera de coco natural e óleos essenciais puros, 
             trazendo aroma e aconchego para o seu lar.
           </motion.p>
 
