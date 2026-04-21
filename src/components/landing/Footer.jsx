@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
           {/* Brand */}
-          <div className="md:col-span-1">
+          {/* <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Flame className="w-5 h-5 text-secondary" />
               <span className="font-heading text-xl font-semibold text-foreground">Thity Velas</span>
@@ -15,10 +15,10 @@ export default function Footer() {
             <p className="font-body text-sm text-muted-foreground leading-relaxed">
               Velas artesanais aromáticas feitas com amor e ingredientes naturais.
             </p>
-          </div>
+          </div> */}
 
           {/* Links */}
-          <div>
+          {/* <div>
             <h4 className="font-heading text-base font-medium text-foreground mb-4">Navegação</h4>
             <div className="flex flex-col gap-2.5">
               {["Início", "Produtos", "Sobre Nós"].map((link) => (
@@ -38,7 +38,7 @@ export default function Footer() {
                 </a>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Social */}
           <div>
@@ -52,7 +52,7 @@ export default function Footer() {
               >
                 <Instagram className="w-4 h-4 text-muted-foreground" />
               </a>
-              {[Facebook, Mail].map((Icon, i) => (
+              {/* {[Facebook, Mail].map((Icon, i) => (
                 <a
                   key={i}
                   href="#"
@@ -60,7 +60,7 @@ export default function Footer() {
                 >
                   <Icon className="w-4 h-4 text-muted-foreground" />
                 </a>
-              ))}
+              ))} */}
             </div>
           </div>
         </div>

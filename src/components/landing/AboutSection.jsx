@@ -6,7 +6,7 @@ const features = [
   {
     icon: Leaf,
     title: "100% Natural",
-    description: "Cera de soja pura e óleos essenciais sem aditivos químicos.",
+    description: "Cera de coco e óleos essenciais sem aditivos químicos.",
   },
   {
     icon: Heart,
@@ -15,8 +15,8 @@ const features = [
   },
   {
     icon: Sparkles,
-    title: "Fragrâncias Exclusivas",
-    description: "Combinações únicas de aromas criadas por nossos especialistas.",
+    title: "Fragrâncias Delicadas",
+    description: "Combinações únicas de aromas cuidadosamente selecionadas.",
   },
 ];
 
@@ -61,7 +61,7 @@ export default function AboutSection({ aboutImage }) {
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-10">
               Na Thity Velas, acreditamos que uma vela é muito mais do que uma fonte de luz. 
               É um convite ao relaxamento, uma experiência sensorial que transforma espaços 
-              e momentos. Desde 2018, criamos velas artesanais com ingredientes naturais 
+              e momentos. Criamos velas artesanais com ingredientes naturais 
               selecionados, combinando tradição e inovação em cada peça.
             </p>
 
