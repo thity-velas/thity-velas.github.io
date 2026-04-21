@@ -1,5 +1,14 @@
 export const PRODUCTS = [
   {
+    name: "Vela Corações 65g",
+    highlight: true,
+    category: "Romântica",
+    description: "Vela aromática decorada com corações vermelhos em vidro estilo patê com tampa.",
+    price: "29,90",
+    image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/vela_coracao.png",
+    long_description: "Vela aromática em vidro estilo patê com tampa de madeira, decorada com corações vermelhos. Perfeita para criar um ambiente romântico e acolhedor, esta vela é ideal para momentos especiais ou para adicionar um toque de charme ao seu espaço.",
+  },
+  {
     name: "Flor de Sálvia",
     highlight: true,
     category: "Herbal",
@@ -10,7 +19,7 @@ export const PRODUCTS = [
   },
   {
     name: "Rosa Antiga",
-    highlight: true,
+    highlight: false,
     category: "Floral",
     description: "Pétalas de rosa, peônia e um leve toque de baunilha.",
     price: "94,90",
@@ -33,15 +42,6 @@ export const PRODUCTS = [
     description: "Loren ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "99,90",
     image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/ambar-lavanda.png",
-    long_description: "Loren ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    name: "Produto 5",
-    highlight: false,
-    category: "Relaxante",
-    description: "Loren ipsum dolor sit amet, consectetur adipiscing elit.",
-    price: "99,90",
-    image: "https://raw.githubusercontent.com/thity-velas/thity-velas.github.io/refs/heads/main/img/rosa-antiga.png",
     long_description: "Loren ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
 ];
