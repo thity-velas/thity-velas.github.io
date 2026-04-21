@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import ProductCard from "./ProductCard";
 
 export default function ProductsSection({ products }) {
@@ -25,7 +26,7 @@ export default function ProductsSection({ products }) {
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-          {products.map((product, index) => (
+          {products.filter((p) => p.highlight).map((product, index) => (
             <ProductCard key={product.name} product={product} index={index} />
           ))}
         </div>
@@ -37,12 +38,12 @@ export default function ProductsSection({ products }) {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-center mt-14"
         >
-          <a
-            href="#"
+          <Link
+            to="/catalogo"
             className="font-body text-sm tracking-wide border border-foreground/20 text-foreground px-8 py-3.5 rounded-full hover:bg-foreground/5 transition-colors inline-block"
           >
             Ver Mais
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>
